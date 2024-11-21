@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
@@ -13,23 +13,36 @@ import Notfound from "./pages/404";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
-function App() {
+// Utility hook for initializing Google Analytics
+const useGoogleAnalytics = (trackingId) => {
 	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
+		if (trackingId) {
+			ReactGA.initialize(trackingId);
 		}
-	}, []);
+	}, [trackingId]);
+};
+
+function App() {
+	// Initialize Google Analytics
+	useGoogleAnalytics(TRACKING_ID);
+
+	// Route configuration
+	const RouteConfig = [
+		{ path: "/", element: <Homepage /> },
+		{ path: "/about", element: <About /> },
+		{ path: "/projects", element: <Projects /> },
+		{ path: "/articles", element: <Articles /> },
+		{ path: "/article/:slug", element: <ReadArticle /> },
+		{ path: "/contact", element: <Contact /> },
+		{ path: "*", element: <Notfound /> },
+	];
 
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
+				{RouteConfig.map(({ path, element }, index) => (
+					<Route key={index} path={path} element={element} />
+				))}
 			</Routes>
 		</div>
 	);
