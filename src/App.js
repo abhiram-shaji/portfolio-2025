@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
-import About from "./pages/about";
 import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
@@ -29,7 +28,6 @@ function App() {
 	// Route configuration
 	const RouteConfig = [
 		{ path: "/", element: <Homepage /> },
-		{ path: "/about", element: <About /> },
 		{ path: "/projects", element: <Projects /> },
 		{ path: "/articles", element: <Articles /> },
 		{ path: "/article/:slug", element: <ReadArticle /> },

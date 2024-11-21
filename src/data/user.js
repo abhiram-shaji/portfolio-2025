@@ -1,9 +1,9 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Abhiram Shaji Portfolio",
+		name: "Abhiram Sahji",
+		email: "write4abhiram@gmai.com",
+		logo: "https://i.ibb.co/60zNTYJ/pic-abhiram.png",
 	},
 
 	socials: {
@@ -16,16 +16,30 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+		title: <>Abhiram Shaji <br />React Native Developer</>,
+		description: (
+			<>
+				Hi, I'm Abhiram. I create dynamic, cross-platform React and React Native apps.
+				I value the importance of producing high-quality, scalable, and maintainable
+				code. To achieve this, I focus on <strong>code refactoring, thorough reviews, clear
+				documentation, reusable components, scaffolding, and modular design.</strong>
+				My goal is to work with a team of like-minded individuals with a similar set
+				of interests. My journey into programming began eight years ago in high
+				school when I was introduced to C++ as a core academic subject.
+				<br />
+				<br />
+				I have one year of professional programming experience at Deloitte
+				Consulting, where I developed scalable solutions using Java and .NET for
+				real-world challenges. Moreover, I have five years of experience building
+				dynamic and user-friendly applications as part of my academic pursuit in the{" "}
+				<strong>Mobile App Development Postgraduate Diploma</strong> and{" "}
+				<strong>Bachelor's in Computer Applications</strong>.
+			</>
+		),
 	},
+	
+	
 
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
