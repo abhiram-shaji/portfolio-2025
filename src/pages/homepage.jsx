@@ -25,8 +25,8 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
-	const [logoSize, setLogoSize] = useState(80);
-	const [oldLogoSize, setOldLogoSize] = useState(80);
+	const [logoSize, setLogoSize] = useState(200); // Increased initial size
+	const [oldLogoSize, setOldLogoSize] = useState(200);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -34,12 +34,20 @@ const Homepage = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			let scroll = Math.round(window.pageYOffset, 2);
-
-			let newLogoSize = 80 - (scroll * 4) / 10;
-
+			const scroll = Math.round(window.pageYOffset);
+	
+			// Reset to original size when at the top
+			if (scroll === 0) {
+				setLogoSize(200); // Reset logo size to initial value
+				setOldLogoSize(200); // Reset old logo size to initial value
+				setStayLogo(false);
+				return;
+			}
+	
+			let newLogoSize = 120 - (scroll * 6) / 10; // Adjust scaling
+	
 			if (newLogoSize < oldLogoSize) {
-				if (newLogoSize > 40) {
+				if (newLogoSize > 50) { // Ensure minimum size is 50
 					setLogoSize(newLogoSize);
 					setOldLogoSize(newLogoSize);
 					setStayLogo(false);
@@ -51,10 +59,11 @@ const Homepage = () => {
 				setStayLogo(false);
 			}
 		};
-
+	
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
+	
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -99,7 +108,6 @@ const Homepage = () => {
 									{INFO.homepage.description}
 								</div>
 							</div>
-
 						</div>
 
 						<div className="homepage-socials">
