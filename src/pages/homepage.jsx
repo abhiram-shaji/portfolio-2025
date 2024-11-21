@@ -4,10 +4,9 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
 	faInstagram,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -35,7 +34,7 @@ const Homepage = () => {
 	useEffect(() => {
 		const handleScroll = () => {
 			const scroll = Math.round(window.pageYOffset);
-	
+
 			// Reset to original size when at the top
 			if (scroll === 0) {
 				setLogoSize(200); // Reset logo size to initial value
@@ -43,11 +42,13 @@ const Homepage = () => {
 				setStayLogo(false);
 				return;
 			}
-	
-			let newLogoSize = 120 - (scroll * 6) / 10; // Adjust scaling
-	
+
+			let newLogoSize = Math.max(50, 200 - scroll * 0.5);
+
+
 			if (newLogoSize < oldLogoSize) {
-				if (newLogoSize > 50) { // Ensure minimum size is 50
+				if (newLogoSize > 50) {
+					// Ensure minimum size is 50
 					setLogoSize(newLogoSize);
 					setOldLogoSize(newLogoSize);
 					setStayLogo(false);
@@ -59,11 +60,10 @@ const Homepage = () => {
 				setStayLogo(false);
 			}
 		};
-	
+
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
-	
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -128,6 +128,16 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faInstagram}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>

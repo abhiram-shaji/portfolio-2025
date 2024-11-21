@@ -19,7 +19,7 @@ const INFO = {
 				Hi, I'm Abhiram. I create dynamic, cross-platform React and React Native apps.
 				I value the importance of producing high-quality, scalable, and maintainable
 				code. To achieve this, I focus on <strong>code refactoring, thorough reviews, clear
-				documentation, reusable components, scaffolding, and modular design.</strong>
+				documentation, reusable components, scaffolding, and modular design. </strong>
 				My goal is to work with a team of like-minded individuals with a similar set
 				of interests. My journey into programming began eight years ago in high
 				school when I was introduced to C++ as a core academic subject.
