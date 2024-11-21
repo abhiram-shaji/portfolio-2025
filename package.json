@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
+	"name": "Abhiram Shaji Portfolio",
 	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"description": "Portoflio of Abhiram Shaji React Developer",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Abhiram Shaji",
+		"email": "write4kace@gmail.com",
+		"url": "https://worksofabhiram.live"
 	},
 	"license": "MIT",
 	"private": true,

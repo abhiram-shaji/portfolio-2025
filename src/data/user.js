@@ -7,12 +7,9 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/abhiram-shaji",
+		linkedin: "https://www.linkedin.com/in/abhiram-kace/",
+		instagram: "https://www.instagram.com/breifkace/",
 	},
 
 	homepage: {
