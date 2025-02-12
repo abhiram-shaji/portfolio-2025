@@ -10,7 +10,7 @@ import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
-import "./index.css";
+import "./app.css";
 
 // Utility hook for initializing Google Analytics
 const useGoogleAnalytics = (trackingId) => {
