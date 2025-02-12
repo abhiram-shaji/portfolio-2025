@@ -46,49 +46,57 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			title: "Langroove",
+			description: "A social language learning platform with real-time messaging and translation features.",
+			logo: "https://worksofabhiram.com/img/langroove.png",
+			linkText: "GitHub",
+			link: "https://github.com/abhiram-shaji/Langroove",
 		},
-
+	
 		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			title: "Comox Valley Writers Society Conference Website",
+			description: "A website for the North Island Writers Conference, featuring event registration and presenter details.",
+			logo: "https://worksofabhiram.com/img/cvws.png",
+			linkText: "Preview",
+			link: "https://cvwsconference.web.app/",
+			github: "https://github.com/abhiram-shaji/Conference-Website",
 		},
-
+	
 		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			title: "Asteroid Tracker",
+			description: "A web app using Leaflet.js and NASA's NeoWs API to track Near-Earth Objects.",
+			logo: "https://worksofabhiram.com/img/NEOT.png",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/Asteroid-Tracker/",
+			github: "https://github.com/abhiram-shaji/Asteroid-Tracker",
 		},
-
+	
 		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			title: "The Arts of Whispering Fogs",
+			description: "An artistic and literary project website featuring storytelling elements.",
+			logo: "https://worksofabhiram.com/img/aowf/projects/aowf.png",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/theartsofwhisperingfogs.github.io/",
+			github: "https://github.com/abhiram-shaji/theartsofwhisperingfogs.github.io",
 		},
-
+	
 		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			title: "Llama",
+			description: "A Bootstrap-based project with a creative design theme.",
+			logo: "https://worksofabhiram.com/img/llama.png",
+			linkText: "Preview",
+			link: "https://worksofabhiram.com/Bootstrap_llama/",
+			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
+	
+		{
+			title: "Northern Lights",
+			description: "A visually appealing project built with Bootstrap, inspired by aurora borealis.",
+			logo: "https://worksofabhiram.com/img/aowf/projects/Before%20Logo.png",
+			linkText: "Preview",
+			link: "https://worksofabhiram.com/bootstrap_northern-lights/",
+			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+		}
 	],
 };
 
