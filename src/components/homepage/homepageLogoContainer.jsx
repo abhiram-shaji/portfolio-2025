@@ -5,7 +5,7 @@ const LogoContainer = () => {
   const logoStyle = {
     display: "flex",
     position: "relative",
-    zIndex: 999,
+
   };
 
   return (
