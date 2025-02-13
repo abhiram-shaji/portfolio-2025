@@ -39,6 +39,21 @@
 	width: 350px;
 	font-size: 12px;
 	padding-top: 20px;
+
 	text-align: right;
 	color: var(--tertiary-color);
+}
+
+@media (max-width: 800px) {
+
+	.work-duration {
+		width: 300px; /* Reduce width to prevent it from reaching the edge */
+		margin-right: 20px; /* Shift it slightly left */
+	}
+
+	.homepage-works{
+	padding: 20px;
+	overflow: hidden;
+	}
+
 }

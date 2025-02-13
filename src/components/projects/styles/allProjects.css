@@ -3,7 +3,6 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: center; /* Centers items */
-
 	max-width: 1200px; /* Prevents excessive stretching */
 	box-sizing: border-box;
 }
