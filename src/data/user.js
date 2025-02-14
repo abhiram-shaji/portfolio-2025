@@ -119,14 +119,6 @@ const INFO = {
 			link: "https://langroove-webpage.vercel.app/",
 		},
 		{
-			title: "Earthquake visualisation app",
-			description: "Build using leaflet.js and public api",
-			logo: "https://www.princeton.edu/~efeibush/earthquakes/7to10.png",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/earthquake-visualization/",
-			github: "https://abhiram-shaji.github.io/earthquake-visualization/",
-		},
-		{
 			title: "Outback Nursery",
 			description: "A redisgn for original outback nursery website in comox valley",
 			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
