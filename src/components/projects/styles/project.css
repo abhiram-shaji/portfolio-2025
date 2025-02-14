@@ -53,9 +53,14 @@
   }
   
   .project-link {
+	color: white;
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
+  }
+
+  .project-link:hover {
+	color: #ddd; /* Optional: Slightly lighter color on hover */
   }
   
   .project-link-icon {
