@@ -80,15 +80,6 @@ const INFO = {
 		},
 	
 		{
-			title: "The Arts of Whispering Fogs",
-			description: "An artistic and literary project website featuring storytelling elements.",
-			logo: "https://worksofabhiram.com/img/aowf/projects/aowf.png",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/theartsofwhisperingfogs.github.io/",
-			github: "https://github.com/abhiram-shaji/theartsofwhisperingfogs.github.io",
-		},
-	
-		{
 			title: "Llama",
 			description: "A Bootstrap-based project with a creative design theme.",
 			logo: "https://worksofabhiram.com/img/llama.png",
@@ -118,14 +109,7 @@ const INFO = {
 			linkText: "Preview",
 			link: "https://langroove-webpage.vercel.app/",
 		},
-		{
-			title: "Outback Nursery",
-			description: "A redisgn for original outback nursery website in comox valley",
-			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/outback-nursery/",
-			github: "https://abhiram-shaji.github.io/outback-nursery/",
-		},
+		
 		{
 			title: "Tic Tac Toe app",
 			description: "Build using react",
@@ -151,22 +135,6 @@ const INFO = {
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
-			title: "Portfolio HTML CSS",
-			description: "Build using simple HTML and CSS",
-			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/portofolio-old-scss/",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
-		},
-		{
-			title: "Lars Tonroe Enhanced",
-			description: "An updated version of original Lars Tonroe norweign designer website",
-			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/lars-tonroe.jpeg",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
-		},
-		{
 			title: "Nourish Inbox UI UX",
 			description: "A prototype of an inbox cleaner app designed to enhance email management and user experience by providing a clutter-free digital environment.",
 			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/mail.png",
@@ -179,7 +147,41 @@ const INFO = {
 			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/casper.png",
 			linkText: "Preview",
 			link: "https://xd.adobe.com/view/c7247965-6797-4725-b84b-4f91403ac375-9277/",
-		}
+		},
+		{
+			title: "The Arts of Whispering Fogs",
+			description: "An artistic and literary project website featuring storytelling elements.",
+			logo: "https://worksofabhiram.com/img/aowf/projects/aowf.png",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/theartsofwhisperingfogs.github.io/",
+			github: "https://github.com/abhiram-shaji/theartsofwhisperingfogs.github.io",
+		},
+		{
+			title: "Outback Nursery",
+			description: "A redisgn for original outback nursery website in comox valley",
+			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/outback-nursery/",
+			github: "https://abhiram-shaji.github.io/outback-nursery/",
+		},
+		{
+			title: "Portfolio HTML CSS",
+			description: "Build using simple HTML and CSS",
+			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/portofolio-old-scss/",
+			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+		},
+		
+		{
+			title: "Lars Tonroe Enhanced",
+			description: "An updated version of original Lars Tonroe norweign designer website",
+			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/lars-tonroe.jpeg",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
+			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+		},
+
 	],
 };
 
