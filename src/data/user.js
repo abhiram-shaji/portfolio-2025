@@ -147,7 +147,7 @@ const INFO = {
 			description: "Build using simple HTML and SCSS",
 			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
 			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io//portfolio-scss-dark-old/",
+			link: "https://abhiram-shaji.github.io/portfolio-scss-dark-old/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
@@ -155,7 +155,7 @@ const INFO = {
 			description: "A well designed portfolio website made using bootstrap",
 			logo: "https://www.openlogic.com/sites/default/files/image/2024-05/image-ol-boostrap-framwork-basics.jpg.jpeg",
 			linkText: "Preview",
-			link: "",
+			link: "https://abhiram-shaji.github.io/Bootstrap_Portfolio-Current/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
