@@ -76,7 +76,7 @@ const INFO = {
 			description: "A mobile app for students with task management pomodoro timer and lofi music",
 			logo: "https://lofi.co/thumbnail.png",
 			linkText: "GitHub",
-			link: "https://github.com/nic-dgl214-wi23/dgl214-semester-project-abhiram-shaji",
+			link: "https://github.com/abhiram-shaji/EireneSync",
 		},
 	
 		{
@@ -94,7 +94,6 @@ const INFO = {
 			logo: "https://worksofabhiram.com/img/llama.png",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/Bootstrap_llama/",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 	
 		{
@@ -111,7 +110,6 @@ const INFO = {
 			logo: "https://abhiram-shaji.github.io/marine-awareness-retreat/images/trip01.jpg",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/marine-awareness-retreat/",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
 			title: "Langroove Landing Page",
@@ -119,38 +117,37 @@ const INFO = {
 			logo: "https://i.ibb.co/PCYbQ2Q/smartphone-mockup-psd-1733126246994.png",
 			linkText: "Preview",
 			link: "https://langroove-webpage.vercel.app/",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
 			title: "Earthquake visualisation app",
 			description: "Build using leaflet.js and public api",
 			logo: "https://www.princeton.edu/~efeibush/earthquakes/7to10.png",
 			linkText: "Preview",
-			link: "",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+			link: "https://abhiram-shaji.github.io/earthquake-visualization/",
+			github: "https://abhiram-shaji.github.io/earthquake-visualization/",
 		},
 		{
 			title: "Outback Nursery",
 			description: "A redisgn for original outback nursery website in comox valley",
 			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
 			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/Asteroid-Tracker/",
-			github: "https://github.com/abhiram-shaji/Asteroid-Tracker",
+			link: "https://abhiram-shaji.github.io/outback-nursery/",
+			github: "https://abhiram-shaji.github.io/outback-nursery/",
 		},
 		{
 			title: "Tic Tac Toe app",
 			description: "Build using react",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/800px-Tic_tac_toe.svg.png",
 			linkText: "Preview",
-			link: "",
+			link: "https://abhiram-shaji.github.io/tic-tac-toe-applied-javascript/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
-			title: "SCSS Portfolio",
+			title: "Portfolio SCSS",
 			description: "Build using simple HTML and SCSS",
 			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
 			linkText: "Preview",
-			link: "",
+			link: "https://abhiram-shaji.github.io//portfolio-scss-dark-old/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
@@ -162,12 +159,34 @@ const INFO = {
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
+			title: "Portfolio HTML CSS",
+			description: "Build using simple HTML and CSS",
+			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/portofolio-old-scss/",
+			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+		},
+		{
 			title: "Lars Tonroe Enhanced",
 			description: "An updated version of original Lars Tonroe norweign designer website",
-			logo: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
+			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/lars-tonroe.jpeg",
 			linkText: "Preview",
-			link: "",
+			link: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+		},
+		{
+			title: "Nourish Inbox UI UX",
+			description: "A prototype of an inbox cleaner app designed to enhance email management and user experience by providing a clutter-free digital environment.",
+			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/mail.png",
+			linkText: "Preview",
+			link: "https://xd.adobe.com/view/219dc65c-d45d-4d6b-b64c-4c4049d7698a-74ce/grid/",
+		},
+		{
+			title: "Professional Pawprint UI UX",
+			description: "A professional profile card design that introduces Casper, the cat, in a manner as elegant and poised as his personality, providing a playful yet professional visual narrative",
+			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/casper.png",
+			linkText: "Preview",
+			link: "https://xd.adobe.com/view/c7247965-6797-4725-b84b-4f91403ac375-9277/",
 		}
 	],
 };
