@@ -119,6 +119,13 @@ const INFO = {
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
+			title: "Earthquake visualisation app",
+			description: "Build using leaflet.js and public api",
+			logo: "https://www.princeton.edu/~efeibush/earthquakes/7to10.png",
+			linkText: "Github",
+			link: "https://github.com/abhiram-shaji/earthquake-visualization",
+		},
+		{
 			title: "Portfolio SCSS",
 			description: "Build using simple HTML and SCSS",
 			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
