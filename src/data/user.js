@@ -21,28 +21,34 @@ const INFO = {
 		),
 		description: (
 			<>
-				Full Stack Developer with nearly 4 years of industry experience.
-				Highly skilled in React, Node.js, Java, Kotlin, SQL and working
-				with APIs. Adept at building scalable and maintainable web and
-				mobile applications following Agile methodologies. Passionate
-				about optimizing business workflows through AI tool integration
-				and specialized consultation on efficient API usage.
-				Demonstrated success in delivering robust solutions that exceed
-				client expectations, emphasizing teamwork, accountability, and
-				continuous improvement.
-				<br />
-				<br />
-				I value the importance of producing
-				high-quality, scalable, and maintainable code. To achieve this,
-				I focus on{" "}
+				Full Stack Developer skilled in developing scalable and
+				maintainable web and mobile applications while adhering to Agile
+				methodologies. Passionate about enhancing business workflows
+				through AI-driven tool integration and providing specialized
+				consultation on efficient API utilization. Proven ability to
+				deliver robust, high-performance solutions that surpass client
+				expectations, emphasizing collaboration, accountability, and
+				continuous improvement. I hold a{" "}
+				<strong>Bachelor’s degree in Computer Applications </strong>{" "}
+				followed by a{" "}
+				<strong>
+					Professional Postgraduate Diploma in Digital Design +
+					Development Mobile Application Development
+				</strong>
+				. <br />
+				<br /> My strong technical foundation, combined with practical
+				industry experience, enables me to build intuitive and efficient
+				applications that drive meaningful impact. I prioritize writing{" "}
+				<strong>high-quality, scalable, and maintainable code</strong> by
+				focusing on -
 				<strong>
 					code refactoring, thorough reviews, clear documentation,
-					reusable components, scaffolding, and modular design.{" "}
+					reusable components, scaffolding, and modular design. 
 				</strong>
-				My goal is to work with a team of like-minded individuals with a
-				similar set of interests. My journey into programming began
-				eight years ago in high school when I was introduced to C++ as a
-				core academic subject.
+				My journey into programming began eight years ago in high school
+				when I was introduced to C++ as a core academic subject,
+				igniting my passion for software development and
+				problem-solving.
 			</>
 		),
 	},
