@@ -13,30 +13,39 @@ const INFO = {
 	},
 
 	homepage: {
-		title: <>Abhiram Shaji <br />React Native Developer</>,
+		title: (
+			<>
+				Abhiram Shaji <br />
+				Full stack web & mobile app developer
+			</>
+		),
 		description: (
 			<>
-				Hi, I'm Abhiram. I create dynamic, cross-platform React and React Native apps.
-				I value the importance of producing high-quality, scalable, and maintainable
-				code. To achieve this, I focus on <strong>code refactoring, thorough reviews, clear
-				documentation, reusable components, scaffolding, and modular design. </strong>
-				My goal is to work with a team of like-minded individuals with a similar set
-				of interests. My journey into programming began eight years ago in high
-				school when I was introduced to C++ as a core academic subject.
+				Full Stack Developer with nearly 4 years of industry experience.
+				Highly skilled in React, Node.js, Java, Kotlin, SQL and working
+				with APIs. Adept at building scalable and maintainable web and
+				mobile applications following Agile methodologies. Passionate
+				about optimizing business workflows through AI tool integration
+				and specialized consultation on efficient API usage.
+				Demonstrated success in delivering robust solutions that exceed
+				client expectations, emphasizing teamwork, accountability, and
+				continuous improvement.
 				<br />
 				<br />
-				I have one year of professional programming experience at Deloitte
-				Consulting, where I developed scalable solutions using Java and .NET for
-				real-world challenges. Moreover, I have five years of experience building
-				dynamic and user-friendly applications as part of my academic pursuit in the{" "}
-				<strong>Mobile App Development Postgraduate Diploma</strong> and{" "}
-				<strong>Bachelor's in Computer Applications</strong>.
+				I value the importance of producing
+				high-quality, scalable, and maintainable code. To achieve this,
+				I focus on{" "}
+				<strong>
+					code refactoring, thorough reviews, clear documentation,
+					reusable components, scaffolding, and modular design.{" "}
+				</strong>
+				My goal is to work with a team of like-minded individuals with a
+				similar set of interests. My journey into programming began
+				eight years ago in high school when I was introduced to C++ as a
+				core academic subject.
 			</>
 		),
 	},
-	
-	
-
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -47,24 +56,27 @@ const INFO = {
 	projects: [
 		{
 			title: "Langroove",
-			description: "A social language learning platform with real-time messaging and translation features.",
+			description:
+				"A social language learning platform with real-time messaging and translation features.",
 			logo: "https://i.ibb.co/CB4kLsF/splash.png",
 			linkText: "GitHub",
 			link: "https://github.com/abhiram-shaji/Langroove",
 		},
-	
+
 		{
 			title: "Conference Website",
-			description: "A website for the North Island Writers Conference, featuring event registration and presenter details.",
+			description:
+				"A website for the North Island Writers Conference, featuring event registration and presenter details.",
 			logo: "https://cvwriterssociety.ca/wp-content/uploads/2017/12/cropped-comox-commercial-docs.jpg",
 			linkText: "Preview",
 			link: "https://cvwsconference.web.app/",
 			github: "https://github.com/abhiram-shaji/Conference-Website",
 		},
-	
+
 		{
 			title: "Asteroid Tracker",
-			description: "A web app using Leaflet.js and NASA's NeoWs API to track Near-Earth Objects.",
+			description:
+				"A web app using Leaflet.js and NASA's NeoWs API to track Near-Earth Objects.",
 			logo: "https://images.moneycontrol.com/static-mcnews/2024/07/20240711103206_Sushi-46.jpg?impolicy=website&width=1600&height=900",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/Asteroid-Tracker/",
@@ -73,15 +85,17 @@ const INFO = {
 
 		{
 			title: "Eirenesync",
-			description: "A mobile app for students with task management pomodoro timer and lofi music",
+			description:
+				"A mobile app for students with task management pomodoro timer and lofi music",
 			logo: "https://lofi.co/thumbnail.png",
 			linkText: "GitHub",
 			link: "https://github.com/abhiram-shaji/EireneSync",
 		},
-	
+
 		{
 			title: "Northern Lights",
-			description: "A visually appealing project built with Bootstrap, inspired by aurora borealis.",
+			description:
+				"A visually appealing project built with Bootstrap, inspired by aurora borealis.",
 			logo: "https://worksofabhiram.com/img/aowf/projects/Before%20Logo.png",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/bootstrap_northern-lights/",
@@ -96,7 +110,8 @@ const INFO = {
 		},
 		{
 			title: "Outback Nursery",
-			description: "A redisgn for original outback nursery website in comox valley",
+			description:
+				"A redisgn for original outback nursery website in comox valley",
 			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/outback-nursery/",
@@ -109,7 +124,7 @@ const INFO = {
 			linkText: "Preview",
 			link: "https://langroove-webpage.vercel.app/",
 		},
-		
+
 		{
 			title: "Tic Tac Toe app",
 			description: "Build using react",
@@ -120,7 +135,8 @@ const INFO = {
 		},
 		{
 			title: "Lars Tonroe Enhanced",
-			description: "An updated version of original Lars Tonroe norweign designer website",
+			description:
+				"An updated version of original Lars Tonroe norweign designer website",
 			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/lars-tonroe.jpeg",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
@@ -143,7 +159,8 @@ const INFO = {
 		},
 		{
 			title: "Bootstrap Portfolio",
-			description: "A well designed portfolio website made using bootstrap",
+			description:
+				"A well designed portfolio website made using bootstrap",
 			logo: "https://www.openlogic.com/sites/default/files/image/2024-05/image-ol-boostrap-framwork-basics.jpg.jpeg",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/Bootstrap_Portfolio-Current/",
@@ -151,28 +168,32 @@ const INFO = {
 		},
 		{
 			title: "Llama",
-			description: "A Bootstrap-based project with a creative design theme.",
+			description:
+				"A Bootstrap-based project with a creative design theme.",
 			logo: "https://worksofabhiram.com/img/llama.png",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/Bootstrap_llama/",
 		},
 		{
 			title: "Nourish Inbox UI UX",
-			description: "A prototype of an inbox cleaner app designed to enhance email management and user experience by providing a clutter-free digital environment.",
+			description:
+				"A prototype of an inbox cleaner app designed to enhance email management and user experience by providing a clutter-free digital environment.",
 			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/mail.png",
 			linkText: "Preview",
 			link: "https://xd.adobe.com/view/219dc65c-d45d-4d6b-b64c-4c4049d7698a-74ce/grid/",
 		},
 		{
 			title: "Professional Pawprint UI UX",
-			description: "A professional profile card design that introduces Casper, the cat, in a manner as elegant and poised as his personality, providing a playful yet professional visual narrative",
+			description:
+				"A professional profile card design that introduces Casper, the cat, in a manner as elegant and poised as his personality, providing a playful yet professional visual narrative",
 			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/casper.png",
 			linkText: "Preview",
 			link: "https://xd.adobe.com/view/c7247965-6797-4725-b84b-4f91403ac375-9277/",
 		},
 		{
 			title: "The Arts of Whispering Fogs",
-			description: "An artistic and literary project website featuring storytelling elements.",
+			description:
+				"An artistic and literary project website featuring storytelling elements.",
 			logo: "https://worksofabhiram.com/img/aowf/projects/aowf.png",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/theartsofwhisperingfogs.github.io/",
@@ -186,7 +207,6 @@ const INFO = {
 			link: "https://abhiram-shaji.github.io/portofolio-old-scss/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
-
 	],
 };
 
