@@ -80,14 +80,6 @@ const INFO = {
 		},
 	
 		{
-			title: "Llama",
-			description: "A Bootstrap-based project with a creative design theme.",
-			logo: "https://worksofabhiram.com/img/llama.png",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/Bootstrap_llama/",
-		},
-	
-		{
 			title: "Northern Lights",
 			description: "A visually appealing project built with Bootstrap, inspired by aurora borealis.",
 			logo: "https://worksofabhiram.com/img/aowf/projects/Before%20Logo.png",
@@ -103,6 +95,14 @@ const INFO = {
 			link: "https://abhiram-shaji.github.io/marine-awareness-retreat/",
 		},
 		{
+			title: "Outback Nursery",
+			description: "A redisgn for original outback nursery website in comox valley",
+			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/outback-nursery/",
+			github: "https://abhiram-shaji.github.io/outback-nursery/",
+		},
+		{
 			title: "Langroove Landing Page",
 			description: "Landing page for langroove language learning app",
 			logo: "https://i.ibb.co/PCYbQ2Q/smartphone-mockup-psd-1733126246994.png",
@@ -116,6 +116,14 @@ const INFO = {
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/800px-Tic_tac_toe.svg.png",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/tic-tac-toe-applied-javascript/",
+			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
+		},
+		{
+			title: "Lars Tonroe Enhanced",
+			description: "An updated version of original Lars Tonroe norweign designer website",
+			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/lars-tonroe.jpeg",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
@@ -142,6 +150,13 @@ const INFO = {
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 		{
+			title: "Llama",
+			description: "A Bootstrap-based project with a creative design theme.",
+			logo: "https://worksofabhiram.com/img/llama.png",
+			linkText: "Preview",
+			link: "https://abhiram-shaji.github.io/Bootstrap_llama/",
+		},
+		{
 			title: "Nourish Inbox UI UX",
 			description: "A prototype of an inbox cleaner app designed to enhance email management and user experience by providing a clutter-free digital environment.",
 			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/mail.png",
@@ -164,28 +179,11 @@ const INFO = {
 			github: "https://github.com/abhiram-shaji/theartsofwhisperingfogs.github.io",
 		},
 		{
-			title: "Outback Nursery",
-			description: "A redisgn for original outback nursery website in comox valley",
-			logo: "https://www.gardenworks.ca/files/images/photo-albums/oak-bay-location-736x491-6286bfe7f2850_n.webp",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/outback-nursery/",
-			github: "https://abhiram-shaji.github.io/outback-nursery/",
-		},
-		{
 			title: "Portfolio HTML CSS",
 			description: "Build using simple HTML and CSS",
 			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/portofolio-old-scss/",
-			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
-		},
-		
-		{
-			title: "Lars Tonroe Enhanced",
-			description: "An updated version of original Lars Tonroe norweign designer website",
-			logo: "https://abhiram-shaji.github.io/portofolio-old-scss/images/projects/lars-tonroe.jpeg",
-			linkText: "Preview",
-			link: "https://abhiram-shaji.github.io/Lars-Tonroe-enhanced/",
 			github: "https://github.com/abhiram-shaji/bootstrap_northern-lights",
 		},
 
