@@ -156,8 +156,8 @@ const INFO = {
 			link: "https://github.com/abhiram-shaji/earthquake-visualization",
 		},
 		{
-			title: "Portfolio SCSS",
-			description: "Build using simple HTML and SCSS",
+			title: "Portfolio SASS",
+			description: "Build using simple HTML and SASS",
 			logo: "https://i.ytimg.com/vi/nuJFjx44ILM/maxresdefault.jpg",
 			linkText: "Preview",
 			link: "https://abhiram-shaji.github.io/portfolio-scss-dark-old/",
