@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Abhiram Shaji Portfolio",
 		name: "Abhiram Sahji",
-		email: "write4abhiram@gmai.com",
+		email: "write4abhiram@gmail.com",
 		logo: "https://i.ibb.co/60zNTYJ/pic-abhiram.png",
 	},
 
