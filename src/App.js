@@ -4,8 +4,6 @@ import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
 import Projects from "./pages/projects";
-import Articles from "./pages/articles";
-import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
@@ -29,8 +27,6 @@ function App() {
 	const RouteConfig = [
 		{ path: "/", element: <Homepage /> },
 		{ path: "/projects", element: <Projects /> },
-		{ path: "/articles", element: <Articles /> },
-		{ path: "/article/:slug", element: <ReadArticle /> },
 		{ path: "/contact", element: <Contact /> },
 		{ path: "*", element: <Notfound /> },
 	];

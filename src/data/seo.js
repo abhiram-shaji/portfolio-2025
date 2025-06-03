@@ -13,12 +13,6 @@ const SEO = [
 		keywords: ["Abhiram", "Abhiram Shaji", "Abhiram Kace"],
 	},
 
-	{
-		page: "articles",
-		description:
-			"Chronological collection of my long-form thoughts on software development, full-stack engineering, agile methodologies, and emerging technologies.",
-		keywords: ["Abhiram", "Abhiram Shaji", "Abhiram Kace"],
-	},
 
 	{
 		page: "projects",
