@@ -10,7 +10,6 @@ import LogoContainer from "../components/homepage/homepageLogoContainer";
 import Title from "../components/homepage/homepageTitle";
 import Socials from "../components/homepage/homepageSocials";
 // import ProjectsSection from "../components/homepage/homepageProjectsSection";
-import ArticleSection from "../components/homepage/homepageArticlesSection";
 import WorksSection from "../components/homepage/homepageWorksSection";
 
 // Data
@@ -53,9 +52,8 @@ const Homepage = () => {
             {/* Projects Section  <ProjectsSection /> */}
             
 
-            {/* Articles & Works */}
+            {/* Works */}
             <div className="homepage-after-title">
-              <ArticleSection />
               <WorksSection />
             </div>
 
