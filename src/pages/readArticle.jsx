@@ -11,28 +11,34 @@ import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
 
-let ArticleStyle = styled.div``;
-
 const ReadArticle = () => {
-	const navigate = useNavigate();
-	let { slug } = useParams();
+        const navigate = useNavigate();
+        const { slug } = useParams();
 
-	const article = myArticles[slug - 1];
+        const index = Number(slug) - 1;
+        const articleFn = myArticles[index];
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [article]);
+        useEffect(() => {
+                window.scrollTo(0, 0);
+                if (!articleFn) {
+                        navigate("/404");
+                }
+        }, [articleFn, navigate]);
 
-	ArticleStyle = styled.div`
-		${article().style}
-	`;
+        if (!articleFn) {
+                return null;
+        }
+
+        const ArticleStyle = styled.div`
+                ${articleFn().style}
+        `;
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`${article().title} | ${INFO.main.title}`}</title>
-				<meta name="description" content={article().description} />
-				<meta name="keywords" content={article().keywords.join(", ")} />
+                                <title>{`${articleFn().title} | ${INFO.main.title}`}</title>
+                                <meta name="description" content={articleFn().description} />
+                                <meta name="keywords" content={articleFn().keywords.join(", ")} />
 			</Helmet>
 
 			<div className="page-content">
@@ -53,16 +59,16 @@ const ReadArticle = () => {
 						<div className="read-article-wrapper">
 							<div className="read-article-date-container">
 								<div className="read-article-date">
-									{article().date}
+                                                                        {articleFn().date}
 								</div>
 							</div>
 
 							<div className="title read-article-title">
-								{article().title}
+                                                                {articleFn().title}
 							</div>
 
 							<div className="read-article-body">
-								<ArticleStyle>{article().body}</ArticleStyle>
+                                                                <ArticleStyle>{articleFn().body}</ArticleStyle>
 							</div>
 						</div>
 					</div>
