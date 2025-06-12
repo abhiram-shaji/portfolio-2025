@@ -21,34 +21,16 @@ const INFO = {
 		),
 		description: (
 			<>
-				Full Stack Developer skilled in developing scalable and
-				maintainable web and mobile applications while adhering to Agile
-				methodologies. Passionate about enhancing business workflows
-				through AI-driven tool integration and providing specialized
-				consultation on efficient API utilization. Proven ability to
-				deliver robust, high-performance solutions that surpass client
-				expectations, emphasizing collaboration, accountability, and
-				continuous improvement. I hold a{" "}
-				<strong>Bachelor’s degree in Computer Applications </strong>{" "}
-				followed by a{" "}
-				<strong>
-					Professional Postgraduate Diploma in Digital Design +
-					Development Mobile Application Development
-				</strong>
-				. <br />
-				<br /> My strong technical foundation, combined with practical
-				industry experience, enables me to build intuitive and efficient
-				applications that drive meaningful impact. I prioritize writing{" "}
-				<strong>high-quality, scalable, and maintainable code</strong> by
-				focusing on -
-				<strong>
-					code refactoring, thorough reviews, clear documentation,
-					reusable components, scaffolding, and modular design. 
-				</strong>
-				My journey into programming began eight years ago in high school
-				when I was introduced to C++ as a core academic subject,
-				igniting my passion for software development and
-				problem-solving.
+			One of the very best developer in the town if you could give me a chance to showcase it!  What makes a good developer? Someone who does exactly what it requires to solve the problem in the best possible way. I research and create the most efficient back end, followed by the cleanest, not-cluttered, straight-to-the-point front end, which needs to be fast, should catch the attention of today’s low-attention-span folks, and lead them exactly where the client wants them to be. Best-in-class SEO, keeping up with the best available UI components. Google Analytics for valuable traffic data. CMS to make the client’s life easier. On top of that, I have a certification in social media marketing to increase traffic for the business. I use tools like Ocoya, Hootsuite, and PredisAI.
+			<br />
+			<br />
+			<strong>Evidence of impact when all of the above is done professionally:</strong>
+			<ul>
+			<li>A full website redesign can boost traffic by up to 300% in just four months and lift conversion rates by as much as 200% (Entertop, n.d.; Connective Web Design, n.d.).</li>
+			<li>Switching to a headless CMS saves time for 58% of companies and increases ROI for 61% (Storyblok, 2022).</li>
+			<li>80% of marketing automation users report an increase in lead generation through social media automation (WinSavvy, 2023).</li>
+			<li>Businesses that invest in social media marketing typically see 24% revenue growth on average compared to those that don’t (Statista, 2023).</li>
+			</ul>
 			</>
 		),
 	},
